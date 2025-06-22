@@ -206,4 +206,4 @@ curl -X POST -H "Content-Type: application/json" -d '{"message":"How to treat bl
 
 ---
 
-*For more details, see the source code
+*For more details, see the source code.* 

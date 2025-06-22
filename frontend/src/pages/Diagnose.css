@@ -1,0 +1,89 @@
+.diagnose {
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+
+.diagnose-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.diagnose-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.diagnose-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.diagnose-header p {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.diagnose-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.upload-section,
+.result-section,
+.chat-section {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .diagnose-container {
+    padding: 0 1rem;
+  }
+  
+  .diagnose-header h1 {
+    font-size: 2rem;
+  }
+  
+  .diagnose-header p {
+    font-size: 1rem;
+  }
+  
+  .upload-section,
+  .result-section,
+  .chat-section {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .diagnose-header h1 {
+    font-size: 1.8rem;
+  }
+  
+  .upload-section,
+  .result-section,
+  .chat-section {
+    padding: 1rem;
+  }
+} 

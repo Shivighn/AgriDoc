@@ -30,8 +30,7 @@ AgriDoc is a comprehensive web application that leverages artificial intelligenc
 - **Rate Limiting**: Integrated Upstash Redis for sophisticated rate limiting (100 requests/hour per user)
 - **Input Validation**: Robust validation for file uploads and user input
 
-### ![database (1)](https://github.com/user-attachments/assets/31260785-438a-400c-a129-c2e512ba33de)
-**Database Architecture**
+### 🗄️**Database Architecture**
 - **MongoDB Integration**: NoSQL database with Mongoose ODM for flexible data modelling
 - **Chat History Storage**: Persistent storage of all user conversations with timestamps
 - **User Data Management**: Secure storage of user profiles and authentication data

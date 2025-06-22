@@ -110,13 +110,18 @@ Desktop.ini
 # Uploads
 uploads/
 
-# ML Model files (large files)
+# ML Model files (large files) - but allow TensorFlow.js models
 *.h5
 *.keras
 *.pb
-*.bin
 *.index
 *.data-00000-of-00001
+
+# Allow TensorFlow.js model files (needed for deployment)
+!backend/src/models/ML_model/tfjs_model1/*.bin
+!backend/src/models/ML_model/tfjs_model1/model.json
+!backend/src/models/ML_model2/tfjs_model/*.bin
+!backend/src/models/ML_model2/tfjs_model/model.json
 
 # Jupyter notebooks
 *.ipynb_checkpoints/ 

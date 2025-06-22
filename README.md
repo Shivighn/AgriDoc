@@ -21,17 +21,17 @@ AgriDoc is a comprehensive web application that leverages artificial intelligenc
 - **CNN Architecture**: Implemented EfficientNet-B0 for optimal performance and efficiency
 - **Model Performance**: Achieved **97.8% accuracy** on the testing dataset with 38 disease classes
 - **TensorFlow.js Integration**: Client-side inference for real-time predictions without server latency
-- **Model Optimization**: Converted and optimized TensorFlow model for web deployment
+- **Model Optimisation**: Converted and optimised the TensorFlow model for web deployment
 - **Transfer Learning**: Leveraged pre-trained EfficientNet weights for improved accuracy
 
 ### 🔒 **Enterprise-Grade Security**
 - **Authentication**: Implemented comprehensive JWT and session-based authentication
-- **Endpoint Protection**: Every API endpoint secured with authentication middleware
+- **Endpoint Protection**: Every API endpoint is secured with authentication middleware
 - **Rate Limiting**: Integrated Upstash Redis for sophisticated rate limiting (100 requests/hour per user)
 - **Input Validation**: Robust validation for file uploads and user input
 
-### 💾 **Database Architecture**
-- **MongoDB Integration**: NoSQL database with Mongoose ODM for flexible data modeling
+### ![Database](https://github.com/user-attachments/assets/480fc210-b17e-45ad-b92b-d228bb20ef1a)**Database Architecture**
+- **MongoDB Integration**: NoSQL database with Mongoose ODM for flexible data modelling
 - **Chat History Storage**: Persistent storage of all user conversations with timestamps
 - **User Data Management**: Secure storage of user profiles and authentication data
 - **Diagnosis History**: Complete audit trail of all disease diagnoses with confidence scores
@@ -94,7 +94,7 @@ AgriDoc is a comprehensive web application that leverages artificial intelligenc
 
 ### Disease Diagnosis
 ![Diagnosis Interface](Reference/Diagnose.png)
-*Upload and analyze plant images for disease detection*
+*Upload and analyse plant images for disease detection*
 
 ### Step-by-Step Process
 ![Diagnosis Steps](Reference/step-2.png)
@@ -105,6 +105,7 @@ AgriDoc is a comprehensive web application that leverages artificial intelligenc
 *View and manage previous diagnosis records*
 
 ![Detailed Reports](Reference/report.png)
+
 *Comprehensive disease reports with treatment recommendations*
 
 ## 🚀 Installation
@@ -236,12 +237,12 @@ AgriDoc/
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our contributing guidelines for details on how to submit pull requests, report issues, and contribute to the project.
+We welcome contributions! Please refer to our contributing guidelines for details on submitting pull requests, reporting issues, and contributing to the project.
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+
 ---
 
-**AgriDoc** - Empowering farmers with AI-driven plant disease diagnosis and agricultural intelligence. 🌱🤖 

@@ -20,7 +20,6 @@ AgriDoc is a comprehensive web application that leverages artificial intelligenc
 ### 🤖 **Advanced Machine Learning Model**
 - **CNN Architecture**: Implemented EfficientNet-B0 for optimal performance and efficiency
 - **Model Performance**: Achieved **97.8% accuracy** on the testing dataset with 38 disease classes
-- **TensorFlow.js Integration**: Client-side inference for real-time predictions without server latency
 - **Transfer Learning**: Leveraged pre-trained EfficientNet weights for improved accuracy
 
 ### 🔒 **Enterprise-Grade Security**
@@ -168,7 +167,7 @@ AgriDoc is a comprehensive web application that leverages artificial intelligenc
 
 For detailed API documentation, including all endpoints, request/response formats, and authentication methods, please refer to:
 
-**[API Documentation](API_Documentation.txt)**
+**[API Documentation](API_Documentation.md)**
 
 The API documentation covers:
 - Authentication endpoints

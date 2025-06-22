@@ -195,6 +195,4 @@ curl -X POST -F "image=@/path/to/leaf.jpg" http://localhost:5000/api/diagnose
 ```bash
 curl -X POST -H "Content-Type: application/json" -d '{"message":"How to treat blight?"}' http://localhost:5000/api/chat
 ```
-
-
 *For more details, see the source code.* 

@@ -196,14 +196,5 @@ curl -X POST -F "image=@/path/to/leaf.jpg" http://localhost:5000/api/diagnose
 curl -X POST -H "Content-Type: application/json" -d '{"message":"How to treat blight?"}' http://localhost:5000/api/chat
 ```
 
----
-
-## Notes
-
-- All endpoints are prefixed with `/api`.
-- For protected routes, include your session cookie.
-- For file uploads, use `multipart/form-data`.
-
----
 
 *For more details, see the source code.* 

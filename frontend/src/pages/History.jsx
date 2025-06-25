@@ -18,7 +18,7 @@ const History = () => {
 
   const loadHistory = async () => {
     try {
-      const response = await fetch('https://agridoc-backend.onrender.com/history', {
+      const response = await fetch('http://localhost:5000/history', {
         credentials: 'include'
       })
 
@@ -48,7 +48,7 @@ const History = () => {
     if (!confirm('Are you sure you want to delete this entry?')) return
 
     try {
-      const response = await fetch(`https://agridoc-backend.onrender.com/history/${entryId}`, {
+      const response = await fetch(`http://localhost:5000/history/${entryId}`, {
         method: 'DELETE',
         credentials: 'include'
       })

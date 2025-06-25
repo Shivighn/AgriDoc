@@ -51,7 +51,7 @@ const Diagnose = () => {
       // Preprocess the image to a flat tensor array
       const tensorArray = await preprocessImage(selectedImage);
       // Send to backend as JSON
-      const predictResponse = await fetch('https://agridoc-backend.onrender.com/disease/analyze', {
+      const predictResponse = await fetch('http://localhost:5000/disease/analyze', {
         method: 'POST',
         credentials: 'include',
         headers: { 'Content-Type': 'application/json' },
@@ -84,7 +84,7 @@ const Diagnose = () => {
     if (!user || !prediction || !currentReportId) return
 
     try {
-      const response = await fetch('https://agridoc-backend.onrender.com/history', {
+      const response = await fetch('http://localhost:5000/history', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

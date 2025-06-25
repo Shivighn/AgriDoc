@@ -29,7 +29,7 @@ const PlantDoctorChat = ({ disease, chatHistory, setChatHistory }) => {
     setIsLoading(true)
 
     try {
-      const response = await fetch('http://localhost:5000/chat/message', {
+      const response = await fetch('https://agridoc-backend.onrender.com/chat/message', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -10,7 +10,7 @@ const Profile = () => {
     const fetchSavedCount = async () => {
       if (!user) return
       try {
-        const response = await fetch('http://localhost:5000/history', {
+        const response = await fetch('https://agridoc-backend.onrender.com/history', {
           credentials: 'include'
         })
         if (response.ok) {
